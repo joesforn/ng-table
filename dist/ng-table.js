@@ -1,3 +1,5 @@
+try
+{
 (function(angular, factory) {
     'use strict';
 
@@ -2296,3 +2298,8 @@ angular.module('ngTable').run(['$templateCache', function ($templateCache) {
 }]);
     return angular.module('ngTable');
 }));
+}
+catch(e)
+{
+	console.log(e);
+}
